@@ -34,7 +34,7 @@ const UserSchema = new Schema({
 })
 
 
-//we are using the model function to turn the schema into a model, which is an object that has functions
+//we are using the .model function to turn the schema into a model, which is an object that has functions
 // when we do this, we create the object called user
 /*now we cn use functions like
 User.find()

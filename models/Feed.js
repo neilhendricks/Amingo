@@ -35,12 +35,12 @@ const FeedSchema = new Schema ({
         type: Array
     },
     likes: {
-        type: Number,
-        default: 0
+        type: Array,
+        default: []
     },
     shares: {
-        type: String,
-        default: 0
+        type: Array,
+        default: []
     },
     date: {
         type: Date,
